@@ -58,7 +58,7 @@ INT main() {
 		}
 		else {
 			MessageBoxA(NULL, "It appears RtlAdjustPrivilege is refusing syscall (ERR 0x01)\nI cant believe youve done this.", "Houston, we have a problem", MB_OK | MB_ICONERROR);
-			printf("%i\n", GetLastError);
+			printf("%i\n", GetLastError());
 			return FALSE;
 		}
 	}
