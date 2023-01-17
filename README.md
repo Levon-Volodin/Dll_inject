@@ -22,3 +22,5 @@ compile with MSVC **ONLY** (visual studio has MSVC compiler built-in)
 - this program was mainly created for fun (and for testing taskmgr.exe for a possible process hollowing vulnerability from userspace)
 
 **I will not release the raw executable versions of this program for security reasons**
+
+I *may* work on this more sometime in the future but my workflow is very slow for the time being.
